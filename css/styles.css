@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@100..800&display=swap');
+
+body{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/fondo.jpg');
+    background-size: cover;
+}
+
+header{
+    text-align: center;
+}
+
+.costume-nav .nav-link{
+    font-size: 20px;
+    color: beige;
+    font-family: "Playpen Sans", cursive;
+}
+
+.costume-nav .nav .nav-link:hover{
+    font-size: 20px;
+    color: rgb(228, 171, 66);
+
+}
+
+.carousel-item img {
+    height: 400px;
+    object-fit: cover;
+}
+
+.carousel{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.welcom-text{
+    font-size: 3rem;
+    font-family: "Playpen Sans", cursive;
+    margin: 10px 0;
+    color: beige;
+}
+
+.card{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.card-body{
+    background-color: rgb(224, 215, 168);
+}
+
+
+
+.card .card-body .card-title .card-text{
+    font-family: "Playpen Sans", cursive;
+}
+
+.star-text{
+    font-size: 2rem;
+    font-family: "Playpen Sans", cursive;
+    margin: 10px 0;
+    color: beige;
+}
+
+footer{
+    background-color: beige;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-icons a i{
+    margin: 10px;
+    color: black;
+}
+
+.footer-icons a i:hover{
+    color: rgb(228, 171, 66);
+}
+
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    flex-wrap: wrap;
+}
+
+.footer-icons a{
+    text-decoration: none;
+}
+
+.catalogo-text{
+    font-size: 1.5rem;
+    font-family: "Playpen Sans", cursive;
+    margin: 10px 0;
+    color: beige;
+}
+
+.accordion{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.accordion-body{
+    background-color: white;
+}
+
+.accordion .accordion-body .accordion-title .accordion-text{
+    font-family: "Playpen Sans", cursive;
+}
+
+.catalogo{
+    font-family: "Playpen Sans", cursive;
+    margin: 10px 0;
+    color: beige;
+    text-align: center;
+}
+
+.banner{
+    font-family: "Playpen Sans", cursive;
+    margin: 10px 0;
+    color: beige;
+}
